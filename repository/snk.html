@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sankey Chart from CSV</title>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+
+<body>
+  <div id="chart_div" style="width: 100%; height: 500px;"></div>
+
+  <script>
+    google.charts.load('current', { 'packages': ['sankey'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      Papa.parse("Book6.csv", {
+        download: true,
+        header: true,
+        complete: function (results) {
+          var data = new google.visualization.DataTable();
+          data.addColumn('string', 'SymptomName');
+          data.addColumn('string', 'Diagnosis');
+          data.addColumn('string', 'MedicineName');
+          data.addColumn('number', 'Weight');
+
+          // Parse CSV data and add it to the DataTable
+          results.data.forEach(function (row) {
+            console.debug(row);
+            data.addRow([row.SymptomName, row.Diagnosis, row.MedicineName, 1]); // Adjust Column1, Column2 based on your CSV columns
+          });
+
+          var options = {
+            height: 1000,
+            width: 1800,
+            forceIFrame: true,
+            sankey: {
+              node: {
+                label: {
+                  //fontName: 'Times-Roman',
+                  fontSize: 12,
+                  //color: '#000',
+                  //bold: true,
+                  //italic: false
+                },
+                interactivity: true, // Allows you to select nodes.
+                labelPadding: 6,     // Horizontal distance between the label and the node.
+                nodePadding: 10,     // Vertical distance between nodes.
+                width: 10,            // Thickness of the node.
+                colors: [
+                  '#a6cee3',        // Custom color palette for sankey links.
+                  '#1f78b4',        // Nodes will cycle through this palette
+                  '#b2df8a',        // giving the links for that node the color.
+                  '#33a02c'
+                ] // Change colors as needed
+              },
+              link: {
+                //colorMode: gradient,
+                color: {
+                  fill: '#00beff',     // Color of the link.
+                  fillOpacity: 0.8, // Transparency of the link.
+                  //stroke: 'black',  // Color of the link border.
+                  strokeWidth: 5    // Thickness of the link border (default 0).
+                },
+                colors: [
+                  '#a6cee3',        // Custom color palette for sankey links.
+                  '#1f78b4',        // Nodes will cycle through this palette
+                  '#b2df8a',        // giving the links for that node the color.
+                  '#33a02c'
+                ]
+              }
+            }
+          };
+
+          var chart = new google.visualization.Sankey(document.getElementById('chart_div'));
+          console
+          chart.draw(data, options);
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

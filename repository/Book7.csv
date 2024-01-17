@@ -1,0 +1,109 @@
+SymptomName,Diagnosis,MedicineName
+Fever,NULL,NULL
+Vomiting,GASTRITIS,DICYCLOMINE Tab
+Vomiting,GASTRITIS,CEFIXIME TRIHYDRATE Tablet
+Vomiting,GASTRITIS,Ranitidine Hydrochloride Tablet 
+Vomiting,GASTRITIS,Ondansetron HCL Tablet 
+Fever,AFI,Tab Paracetamol 500mg bd for 5 days 
+Fever,AFI,Tab Cefixime 200mg bd for 5 days 
+Back pain,LBA,Tab Trypsin chymotrypsin (50000iu) + diclofenac(50mg ) twice daily for 7 days 
+Fever,pyrexia,PARACETAMOL Syrup
+Fever,pyrexia,METRONIDAZOLE BENZOATE SUSPENSION 
+Fever,pyrexia,PARACETAMOL Syrup
+Fever,pyrexia,METRONIDAZOLE BENZOATE SUSPENSION 
+Others,BACK PAIN,Calcium Citrate
+Others,BACK PAIN,Omeprazole Capsule 
+Others,BACK PAIN,DICLOFENAC SODIUM SR Tablet 
+Others,7 M ANC WITH BACKACHE WITH VOMITING,Ondansetron HCL Tablet 
+Others,7 M ANC WITH BACKACHE WITH VOMITING,PARACETAMOL Tablet 
+Others,7 M ANC WITH BACKACHE WITH VOMITING,"ORAL REHYDRATION SALTS CITRATE (W.H.O Formula low osmolarity ) sachet ORS 20.5 g. Each sachet contains sodium chloride IP 2.6 g Potassium Chloride IP 1.5 g Sodium Citrate IP 2.9 g 2.9 g Anhydrous Dextorse IP 13.5 g for making 1 L, 1 sachet"
+Others,7 M ANC WITH BACKACHE WITH VOMITING,PLENTY OF ORAL FLUIDS 
+Others,7 M ANC WITH BACKACHE WITH VOMITING,TAB. DOXINATE 1 BD X 7 DAYS
+Others,7 M ANC WITH BACKACHE WITH VOMITING,BLAND DIET
+Back pain,7 M ANC WITH BACKACHE WITH VOMITING,Ondansetron HCL Tablet 
+Back pain,7 M ANC WITH BACKACHE WITH VOMITING,PARACETAMOL Tablet 
+Back pain,7 M ANC WITH BACKACHE WITH VOMITING,"ORAL REHYDRATION SALTS CITRATE (W.H.O Formula low osmolarity ) sachet ORS 20.5 g. Each sachet contains sodium chloride IP 2.6 g Potassium Chloride IP 1.5 g Sodium Citrate IP 2.9 g 2.9 g Anhydrous Dextorse IP 13.5 g for making 1 L, 1 sachet"
+Back pain,7 M ANC WITH BACKACHE WITH VOMITING,PLENTY OF ORAL FLUIDS 
+Back pain,7 M ANC WITH BACKACHE WITH VOMITING,TAB. DOXINATE 1 BD X 7 DAYS
+Back pain,7 M ANC WITH BACKACHE WITH VOMITING,BLAND DIET
+Others,knee pain,DICLOFENAC SODIUM SR Tablet 
+Others,knee pain,Calcium Citrate
+Others,knee pain,DICLOFENAC GEL Diclofenac Sodium
+Headache,CLINICAL MALARIA,Ranitidine Hydrochloride Tablet 
+Headache,CLINICAL MALARIA,PARACETAMOL Tablet 
+Headache,CLINICAL MALARIA,CEFIXIME TRIHYDRATE Tablet
+Fever,CLINICAL MALARIA,Ranitidine Hydrochloride Tablet 
+Fever,CLINICAL MALARIA,PARACETAMOL Tablet 
+Fever,CLINICAL MALARIA,CEFIXIME TRIHYDRATE Tablet
+Cough," Acute upper respiratory infection, unspecified [ J069 ]",PARACETAMOL Tablet 
+Cough," Acute upper respiratory infection, unspecified [ J069 ]","Syp Dextromethorphan + guaifenesin + chlorheniramine + ammonium chloride, 10ml three timesa day for 5 days "
+Cough," Acute upper respiratory infection, unspecified [ J069 ]",Amoxycillin Trihydrate with Clavulanate Potassium tablet 
+Fever," Acute upper respiratory infection, unspecified [ J069 ]",PARACETAMOL Tablet 
+Fever," Acute upper respiratory infection, unspecified [ J069 ]","Syp Dextromethorphan + guaifenesin + chlorheniramine + ammonium chloride, 10ml three timesa day for 5 days "
+Fever," Acute upper respiratory infection, unspecified [ J069 ]",Amoxycillin Trihydrate with Clavulanate Potassium tablet 
+Others,UO,AZITHROMYCIN tablet 
+Others,UO,LEVOCETRIZINE Tablet
+Others,UO,Iron with Folic acid Syrup
+Others,UO,PARACETAMOL Tablet 
+Others,UO,Calcium &amp; Vitamin D3 Suspension
+Others,SHOULDER PAIN,DICLOFENAC SODIUM SR Tablet 
+Others,SHOULDER PAIN,Omeprazole Capsule 
+Others,SHOULDER PAIN,Calcium &amp; Vitamin D3 Suspension
+Fever,U O,OFLOXACIN tablet 
+Fever,U O,PARACETAMOL Tablet 
+Fever,U O,Ascorbic Acid tablet 
+Others,cough,LEVOCETRIZINE Tablet
+Others,cough,"Syp Terbutaline + bromhexine guaiphenesin and menthol , 10 ml three times a day for 5 days "
+Others,cough,Ranitidine Hydrochloride Tablet 
+Others,cough,AZITHROMYCIN tablet 
+Others,UO,Omeprazole Capsule 
+Others,UO,Calcium &amp; Vitamin D3 Suspension
+Others,UO,Iron with Folic acid Syrup
+Others,UO,Ascorbic Acid tablet 
+Others, Low back pain [ M545 ],Tab Trypsin chymotrypsin (50000iu) + diclofenac(50mg ) twice daily for 7 days 
+Itching of skin,Scabies,Tab Fexofenadine 180 mg
+Itching of skin,Scabies,Tab Ivermectin 12 mg
+Itching of skin,Scabies,Advice
+Itching of skin,Scabies,Permethrin 5% lotion
+Itching of skin,Scabies,Tab Fexofenadine 180 mg
+Itching of skin,Scabies,Tab Ivermectin 12 mg
+Itching of skin,Scabies,Advice
+Itching of skin,Scabies,Permethrin 5% lotion
+Chest pain," Chest pain, unspecified [ R079 ]",Metformin Hydrochloride Tablet 
+Chest pain," Chest pain, unspecified [ R079 ]",DICLOFENAC SODIUM SR Tablet 
+Chest pain," Chest pain, unspecified [ R079 ]",Glimepride Tablet
+Chest pain," Chest pain, unspecified [ R079 ]",Advice
+Shortness of breath," Chest pain, unspecified [ R079 ]",Metformin Hydrochloride Tablet 
+Shortness of breath," Chest pain, unspecified [ R079 ]",DICLOFENAC SODIUM SR Tablet 
+Shortness of breath," Chest pain, unspecified [ R079 ]",Glimepride Tablet
+Shortness of breath," Chest pain, unspecified [ R079 ]",Advice
+Others,ari,CEFIXIME ORAL SUSPENSION IP
+Others,ari,LEVOCETRIZINE Syrup
+Cough,U O,LEVOCETRIZINE Tablet
+Cough,U O,Advice
+Cough,U O,CEFIXIME TRIHYDRATE Tablet
+Cough,U O,Ascorbic Acid tablet 
+Others,HEADACHE,Advice
+Back pain,LBA,DICLOFENAC SODIUM SR Tablet 
+Fever,FEVER,CEFIXIME TRIHYDRATE Tablet
+Fever,FEVER,Ranitidine Hydrochloride Tablet 
+Fever,FEVER,PARACETAMOL Tablet 
+Others,OA knee,DICLOFENAC SODIUM SR Tablet 
+Others,OA knee,DICLOFENAC SODIUM SR Tablet 
+Fever," Acute upper respiratory infection, unspecified [ J069 ]","Syp Dextromethorphan + guaifenesin + chlorheniramine + ammonium chloride, 10ml three timesa day for 5 days "
+Fever," Acute upper respiratory infection, unspecified [ J069 ]",Amoxycillin Trihydrate with Clavulanate Potassium tablet 
+Fever," Acute upper respiratory infection, unspecified [ J069 ]",PARACETAMOL Tablet 
+Cough," Acute upper respiratory infection, unspecified [ J069 ]","Syp Dextromethorphan + guaifenesin + chlorheniramine + ammonium chloride, 10ml three timesa day for 5 days "
+Cough," Acute upper respiratory infection, unspecified [ J069 ]",Amoxycillin Trihydrate with Clavulanate Potassium tablet 
+Cough," Acute upper respiratory infection, unspecified [ J069 ]",PARACETAMOL Tablet 
+Others,LEUCORRHEA WITH BACKACHE,METRONIDAZOLE Tablet 
+Others,LEUCORRHEA WITH BACKACHE,Omeprazole Capsule 
+Others,LEUCORRHEA WITH BACKACHE,DOXYCYCLINE HYDROCHLORIDE Capsule Equivalent of
+Back pain,LEUCORRHEA WITH BACKACHE,METRONIDAZOLE Tablet 
+Back pain,LEUCORRHEA WITH BACKACHE,Omeprazole Capsule 
+Back pain,LEUCORRHEA WITH BACKACHE,DOXYCYCLINE HYDROCHLORIDE Capsule Equivalent of
+Others,AD,LEVOCETRIZINE Syrup
+Others,AD,ALBENDAZOLE Suspension
+Others,AD,Mometasone cream
+Others,AD,CEFIXIME ORAL SUSPENSION IP
+Others,AD,Coconut oil
